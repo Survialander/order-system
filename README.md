@@ -29,7 +29,7 @@ utilize os arquivos .http encontrados na pasta `api` do projeto
 
 ### Api GRAPHQL
 
-Acesse o playground, ele se encontra na seguinte url: [GraphQL]("http://localhost:8080")
+Acesse o playground, ele se encontra na seguinte url: [GraphQL](http://localhost:8080)
 
 utilize as seguintes queries:
 ```
@@ -56,6 +56,6 @@ query listOrders {
 
 ### API gRPC
 
-Utilize o arquivo orders.proto, ele se encontra no seguinte caminho `internal/infra/grpc/proto/orders.proto`, você pode utilizar o postman. Caso não saiba utilizar siga os passos no [tutorial]("https://learning.postman.com/docs/sending-requests/grpc/grpc-request-interface/")
+Utilize o arquivo orders.proto, ele se encontra no seguinte caminho `internal/infra/grpc/proto/orders.proto`, você pode utilizar o postman. Caso não saiba utilizar siga os passos no [tutorial](https://learning.postman.com/docs/sending-requests/grpc/grpc-request-interface/)
 
 após importar o arquivo no postman você pode fazer as requests usando o seguinte endpoint `grpc://localhost:50051`
