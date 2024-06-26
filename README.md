@@ -59,3 +59,20 @@ query listOrders {
 Utilize o arquivo orders.proto, ele se encontra no seguinte caminho `internal/infra/grpc/proto/orders.proto`, você pode utilizar o postman. Caso não saiba utilizar siga os passos no [tutorial](https://learning.postman.com/docs/sending-requests/grpc/grpc-request-interface/)
 
 após importar o arquivo no postman você pode fazer as requests usando o seguinte endpoint `grpc://localhost:50051`
+
+Se preferir pode utilizar a CLI Evans para realizar as requests, para isso execute os seguintes comandos:
+```
+evans -r repl
+```
+```
+package pb
+```
+```
+service OrderService
+```
+Após esses passos, bastar chamar as services:
+
+Listagem: `call ListOrders`
+Criação: `call CreateOrder`
+
+
